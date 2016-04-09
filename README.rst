@@ -43,11 +43,12 @@ Usage
 -----
 ``AutoEnum``'s are useful for distinguishing between ``Enum``'s whose members have meaningful
 values and those that are abstract.  For abstract enumerations, manually assigning values (such
-as an incrementing integer) can be misleading and also a maintenance problem for ``Enum``'s with
-many members.
+as an incrementing integer) can be misleading and can also a maintenance problem for ``Enum``'s
+with many members.
 
-Declare an ``AutoEnum`` just like an ``Enum`` except use black ``tuple``s for each of the
-member values.
+Declare an ``AutoEnum`` just like an
+`Enum <https://docs.python.org/3/library/enum.html#creating-an-enum>`_ except use black ``tuple``s
+(``()``) for each of the member values.
 
 .. code:: python
 
@@ -59,7 +60,7 @@ member values.
         blue = ()
         green = ()
 
-Then access members and their attributes  just like an ``Enum``.
+Then access members and their attributes just like an ``Enum``.
 
 .. code:: python
 
