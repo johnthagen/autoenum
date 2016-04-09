@@ -26,7 +26,7 @@ AutoEnum - Auto-numbered Enumerations
     :target: https://pypi.python.org/pypi/autoenum/
 
 Auto-numbered enumeration based upon the
-`Python 3.4+ enum documentation https://docs.python.org/3/library/enum.html#autonumber`_.
+`Python 3.4+ enum documentation <https://docs.python.org/3/library/enum.html#autonumber>`_.
 
 Installation
 ------------
