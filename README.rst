@@ -47,7 +47,7 @@ as an incrementing integer) can be misleading and can also a maintenance problem
 with many members.
 
 Declare an ``AutoEnum`` just like an
-`Enum <https://docs.python.org/3/library/enum.html#creating-an-enum>`_ except use black ``tuple``s
+`Enum <https://docs.python.org/3/library/enum.html#creating-an-enum>`_ except use black ``tuple``'s
 (``()``) for each of the member values.
 
 .. code:: python
