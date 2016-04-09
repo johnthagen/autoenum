@@ -21,7 +21,7 @@ class AutoEnumTestCase(unittest.TestCase):
 
         self.assertIsInstance(Color.red, Color)
 
-        if sys.version_info >= (3, 4):
+        if sys.version_info >= (3, 4):  # pragma: no cover
             self.assertEqual(Color.red.value, 1)
             self.assertEqual(Color.green.value, 2)
             self.assertEqual(Color.blue.value, 3)
@@ -44,7 +44,7 @@ class AutoEnumTestCase(unittest.TestCase):
 
     def test_invalid_key_reuse(self):
         # This is allowed in Python 2.
-        if sys.version_info >= (3, 0):
+        if sys.version_info >= (3, 0):  # pragma: no cover
             with self.assertRaises(TypeError):
                 class Color(autoenum.AutoEnum):
                     red = ()
