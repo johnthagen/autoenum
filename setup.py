@@ -9,7 +9,7 @@ except ImportError:
 
 setuptools.setup(
     name='autoenum',
-    version='1.0.0',
+    version='1.0.1',
 
     description='Auto numbered enum class',
     long_description=open('README.rst').read(),
@@ -19,6 +19,7 @@ setuptools.setup(
     author_email='johnthagen@gmail.com',
     url='https://github.com/johnthagen/autoenum',
     license='MIT',
+    py_modules=['autoenum'],
     install_requires=install_requires,
 
     zip_safe=False,

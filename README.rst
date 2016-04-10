@@ -26,7 +26,7 @@ AutoEnum - Auto-numbered Enumerations
     :target: https://pypi.python.org/pypi/autoenum/
 
 Auto-numbered enumeration based upon the
-`Python 3.4+ enum documentation <https://docs.python.org/3/library/enum.html#autonumber>`_.
+`Python 3.4+ enum documentation <https://docs.python.org/3/library/enum.html#autonumber>`__.
 
 Installation
 ------------
@@ -40,8 +40,8 @@ You can install, upgrade, and uninstall ``autoenum`` with these commands:
     $ pip uninstall autoenum
 
 On Python 3.4+, the standard library
-`enum <https://docs.python.org/3/library/enum.html>`_ is used, on older versions
-`enum34 <https://pypi.python.org/pypi/enum34>`_ is installed as a dependency.
+`enum <https://docs.python.org/3/library/enum.html>`__ is used, on older versions
+`enum34 <https://pypi.python.org/pypi/enum34>`__ is installed as a dependency.
 
 Usage
 -----
@@ -51,9 +51,9 @@ as an incrementing integer) can be misunderstood and can also become a maintenan
 ``Enum``'s with many members.
 
 Declare an ``AutoEnum`` just like an
-`Enum <https://docs.python.org/3/library/enum.html#creating-an-enum>`_ except use empty ``tuple``'s
-(``()``) for each of the member values.  ``AutoEnum`` will automatically assign incrementing
-integer values for each member, starting at ``1``.
+`Enum <https://docs.python.org/3/library/enum.html#creating-an-enum>`__ except use empty
+``tuple``'s (``()``) for each of the member values.  ``AutoEnum`` will automatically assign
+incrementing integer values for each member, starting at ``1``.
 
 .. code:: python
 
@@ -77,11 +77,11 @@ Then access members and their attributes just like an ``Enum``.
     True
 
 There is no need to use the
-`@enum.unique <https://docs.python.org/3/library/enum.html#ensuring-unique-enumeration-values>`_
+`@enum.unique <https://docs.python.org/3/library/enum.html#ensuring-unique-enumeration-values>`__
 decorator, as ``AutoEnum`` ensures that each member has a unique value.
 
 Attempting to manually assign values to ``AutoEnum`` members will raise a
-`TypeError <https://docs.python.org/3/library/exceptions.html#TypeError>`_.
+`TypeError <https://docs.python.org/3/library/exceptions.html#TypeError>`__.
 
 .. code:: python
 
@@ -93,7 +93,7 @@ Attempting to manually assign values to ``AutoEnum`` members will raise a
 Releases
 --------
 
-1.0.0 - 2016-04-10
+1.0.1 - 2016-04-10
 ^^^^^^^^^^^^^^^^^^
 
-First release.
+Fix README rendering on PyPI and include ``autoenum`` module in ``setup.py``.
