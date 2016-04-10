@@ -2,22 +2,22 @@ AutoEnum - Auto-numbered Enumerations
 =====================================
 
 .. image:: https://travis-ci.org/johnthagen/autoenum.svg
-    :target: https://travis-ci.org/johnthagen/autoenum
+    :target: https://travis-ci.org/johnthagen/autoenum/
 
 .. image:: https://codeclimate.com/github/johnthagen/autoenum/badges/gpa.svg
-   :target: https://codeclimate.com/github/johnthagen/autoenum
+   :target: https://codeclimate.com/github/johnthagen/autoenum/
 
 .. image:: https://codeclimate.com/github/johnthagen/autoenum/badges/issue_count.svg
-   :target: https://codeclimate.com/github/johnthagen/autoenum
+   :target: https://codeclimate.com/github/johnthagen/autoenum/
 
 .. image:: https://codecov.io/github/johnthagen/autoenum/coverage.svg
-    :target: https://codecov.io/github/johnthagen/autoenum
+    :target: https://codecov.io/github/johnthagen/autoenum/
 
 .. image:: https://img.shields.io/pypi/v/autoenum.svg
-    :target: https://pypi.python.org/pypi/autoenum
+    :target: https://pypi.python.org/pypi/autoenum/
 
 .. image:: https://img.shields.io/pypi/status/autoenum.svg
-    :target: https://pypi.python.org/pypi/autoenum
+    :target: https://pypi.python.org/pypi/autoenum/
 
 .. image:: https://img.shields.io/pypi/pyversions/autoenum.svg
     :target: https://pypi.python.org/pypi/autoenum/
