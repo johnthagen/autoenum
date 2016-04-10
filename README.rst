@@ -39,18 +39,19 @@ You can install, upgrade, and uninstall ``autoenum`` with these commands:
     $ pip install --upgrade autoenum
     $ pip uninstall autoenum
 
-On Python 3.4+, the standard library ``enum`` library is used, on other versions
+On Python 3.4+, the standard library
+`enum <https://docs.python.org/3/library/enum.html>`_ library is used, on older versions
 `enum34 <https://pypi.python.org/pypi/enum34>`_ is installed as a dependency.
 
 Usage
 -----
 ``AutoEnum``'s are useful for distinguishing between ``Enum``'s whose members have meaningful
-values and those that are abstract.  For abstract enumerations, manually assigning values (such
-as an incrementing integer) can be misleading and can also a maintenance problem for ``Enum``'s
-with many members.
+values and those that are abstract.  For abstract enumerations, *manually* assigning values (such
+as an incrementing integer) can be misunderstood and can also become a maintenance problem for
+``Enum``'s with many members.
 
 Declare an ``AutoEnum`` just like an
-`Enum <https://docs.python.org/3/library/enum.html#creating-an-enum>`_ except use black ``tuple``'s
+`Enum <https://docs.python.org/3/library/enum.html#creating-an-enum>`_ except use empty ``tuple``'s
 (``()``) for each of the member values.  ``AutoEnum`` will automatically assign incrementing
 integer values for each member, starting at ``1``.
 
@@ -58,9 +59,9 @@ integer values for each member, starting at ``1``.
 
     >>> import autoenum
     >>> class Color(autoenum.AutoEnum):
-            red = ()
-            blue = ()
-            green = ()
+    ...     red = ()
+    ...     blue = ()
+    ...     green = ()
 
 Then access members and their attributes just like an ``Enum``.
 
@@ -85,7 +86,7 @@ Attempting to manually assign values to ``AutoEnum`` members will raise a ``Type
 
     >>> import autoenum
     >>> class Color(autoenum.AutoEnum):
-            red = 1
+    ...     red = 1
     TypeError: __new__() takes 1 positional argument but 2 were given
 
 Releases
