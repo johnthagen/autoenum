@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import enum
 import unittest
 import sys
 
@@ -12,6 +13,8 @@ class AutoEnumTestCase(unittest.TestCase):
             red = ()
             green = ()
             blue = ()
+
+        self.assertIsInstance(Color.red, enum.Enum)
 
         self.assertIs(Color.red, Color.red)
         self.assertEqual(Color.red, Color.red)
@@ -59,3 +62,8 @@ class AutoEnumTestCase(unittest.TestCase):
         with self.assertRaises(TypeError):
             class MoreColor(Color):
                 pink = ()
+
+    def test_invalid_manual_value(self):
+        with self.assertRaises(TypeError):
+            class Color(autoenum.AutoEnum):
+                red = 1
