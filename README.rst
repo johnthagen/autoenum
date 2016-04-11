@@ -25,9 +25,9 @@ AutoEnum - Auto-numbered Enumerations
 .. image:: https://img.shields.io/pypi/dm/autoenum.svg
     :target: https://pypi.python.org/pypi/autoenum/
 
-.. note::
+::
 
-    This package was removed from PyPI because it was found to be a duplicate of
+    Note: This package was removed from PyPI because it was found to be a duplicate of
      `aenum.AutoNumberEnum <https://pypi.python.org/pypi/aenum>`__ which existed first
      and will likely be better supported.
 
