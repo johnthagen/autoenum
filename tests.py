@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 import enum
-import unittest
 import sys
+import unittest
 
 import autoenum
 
