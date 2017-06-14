@@ -29,6 +29,8 @@ AutoEnum - Auto-numbered Enumerations
 `aenum.AutoNumberEnum <https://pypi.python.org/pypi/aenum>`__ which existed first
 and will likely be better supported.
 
+Also see the new Python 3.6+ `enum.auto <https://docs.python.org/library/enum.html#enum.auto>`_.
+
 Auto-numbered enumeration based upon the
 `Python 3.4+ enum documentation <https://docs.python.org/3/library/enum.html#autonumber>`__.
 
