@@ -13,18 +13,6 @@ AutoEnum - Auto-numbered Enumerations
 .. image:: https://codecov.io/github/johnthagen/autoenum/coverage.svg
     :target: https://codecov.io/github/johnthagen/autoenum/
 
-.. image:: https://img.shields.io/pypi/v/autoenum.svg
-    :target: https://pypi.python.org/pypi/autoenum/
-
-.. image:: https://img.shields.io/pypi/status/autoenum.svg
-    :target: https://pypi.python.org/pypi/autoenum/
-
-.. image:: https://img.shields.io/pypi/pyversions/autoenum.svg
-    :target: https://pypi.python.org/pypi/autoenum/
-
-.. image:: https://img.shields.io/pypi/dm/autoenum.svg
-    :target: https://pypi.python.org/pypi/autoenum/
-
 **Note:** This package was removed from PyPI because it was found to be a duplicate of
 `aenum.AutoNumberEnum <https://pypi.python.org/pypi/aenum>`__ which existed first
 and will likely be better supported.
